@@ -51,6 +51,13 @@ namespace Excercise4
             top = top.next;
         }
 
+        public void display()
+        {
+            inputData tmp;
+            if (empty())
+                Console.WriteLine("\n Stack empty");
+            
+        }
     }
 
     
