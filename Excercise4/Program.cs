@@ -56,7 +56,14 @@ namespace Excercise4
             inputData tmp;
             if (empty())
                 Console.WriteLine("\n Stack empty");
-            
+            else
+            {
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    
+                }
+
+            }
         }
     }
 
