@@ -78,6 +78,12 @@ namespace Excercise4
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit");
                 Console.WriteLine("\nEnter your Choice: ");
+                string input = Console.ReadLine();
+                char ch = Convert.ToChar(input == "" ? "0" : input);
+                switch (ch)
+                {
+
+                }
             }
         }
     }
