@@ -7,11 +7,11 @@ using System.Xml.Linq;
 
 namespace Excercise4
 {
-    class pop
+    class inputData
     {
         public int info;
-        public pop next;
-        public pop(int i, pop n)
+        public inputData next;
+        public inputData(int i, inputData n)
         {
             info = info;
             next = next;
