@@ -34,7 +34,15 @@ namespace Excercise4
             else
                 return false;
         }
+
+        public void pop()
+        {
+            Console.WriteLine("\n the poped element is: " + top.info);
+            top = top.next;
+        }
     }
+
+    
     internal class Program
     {
         static void Main(string[] args)
