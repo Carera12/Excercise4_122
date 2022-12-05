@@ -79,7 +79,7 @@ namespace Excercise4
                 Console.WriteLine("4. Exit");
                 Console.WriteLine("\nEnter your Choice: ");
                 string input = Console.ReadLine();
-                char ch = Convert.ToChar(input == "" ? "0" : input);
+                char ch = Convert.ToChar(input == "" ? "36" : input);
                 switch (ch)
                 {
                     case '1':
