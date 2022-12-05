@@ -72,7 +72,7 @@ namespace Excercise4
             while (true)
             {
                 Console.WriteLine();
-                Console.WriteLine("\n*****Stack Menu*****");
+                Console.WriteLine("\n*****Asrul Menu*****");
                 Console.WriteLine("1. pop");
                 Console.WriteLine("2. push");
                 Console.WriteLine("3. Display");
