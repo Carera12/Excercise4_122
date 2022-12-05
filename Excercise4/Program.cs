@@ -9,11 +9,11 @@ namespace Excercise4
 {
     class inputData
     {
-        public int info;
+        public int asrul;
         public inputData next;
         public inputData(int i, inputData n)
         {
-            info = info;
+            asrul = asrul;
             next = next;
         }
     }
@@ -47,7 +47,7 @@ namespace Excercise4
 
         public void pop()
         {
-            Console.WriteLine("\n the poped element is: " + top.info);
+            Console.WriteLine("\n the poped element is: " + top.asrul);
             top = top.next;
         }
 
@@ -60,7 +60,7 @@ namespace Excercise4
             {
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
-                    Console.WriteLine(tmp.info);
+                    Console.WriteLine(tmp.asrul);
                 }
 
             }
@@ -84,8 +84,8 @@ namespace Excercise4
                 {
                     case '1':
                         Console.Write("\n Enter a number: ");
-                        int num = Convert.ToInt32(Console.ReadLine());
-                        s.push(num);
+                        int asrul = Convert.ToInt32(Console.ReadLine());
+                        s.push(asrul);
                         break;
                     case '2':
                         if (s.empty())
