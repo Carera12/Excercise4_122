@@ -17,6 +17,16 @@ namespace Excercise4
             next = next;
         }
     }
+
+    class Stack
+    {
+        inputData top;
+
+        public Stack()
+        {
+            top = null;
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
