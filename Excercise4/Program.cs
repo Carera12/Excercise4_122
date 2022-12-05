@@ -60,7 +60,7 @@ namespace Excercise4
             {
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
-                    
+                    Console.WriteLine(tmp.info);
                 }
 
             }
