@@ -7,13 +7,17 @@ using System.Xml.Linq;
 
 namespace Excercise4
 {
+    
+
+
+
     class inputData
     {
-        public int asrul;
+        public int info;
         public inputData next;
         public inputData(int i, inputData n)
         {
-            asrul = asrul;
+            info = info;
             next = next;
         }
     }
@@ -42,12 +46,19 @@ namespace Excercise4
             fresh.next = top;
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("\n*****masukkan nilai aarray*****");
+            Console.WriteLine("------------------------------------");
+            string input = Console.ReadLine();
+
+
+
 
         }
 
         public void pop()
         {
-            Console.WriteLine("\n the poped element is: " + top.asrul);
+            Console.WriteLine("\n the poped element is: " + top.info);
             top = top.next;
         }
 
@@ -60,7 +71,7 @@ namespace Excercise4
             {
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
-                    Console.WriteLine(tmp.asrul);
+                    Console.WriteLine(tmp.info);
                 }
 
             }
