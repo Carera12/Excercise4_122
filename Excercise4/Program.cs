@@ -34,12 +34,23 @@ namespace Excercise4
             else
                 return false;
         }
+        public void push(int element)
+        {
+            inputData fresh;
+            fresh = new inputData(element, null);
+
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed");
+
+        }
 
         public void pop()
         {
             Console.WriteLine("\n the poped element is: " + top.info);
             top = top.next;
         }
+
     }
 
     
