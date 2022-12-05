@@ -13,7 +13,8 @@ namespace Excercise4
         public pop next;
         public pop(int i, pop n)
         {
-
+            info = info;
+            next = next;
         }
     }
     internal class Program
